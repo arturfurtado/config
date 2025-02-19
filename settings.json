@@ -1,0 +1,15 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "workbench.colorTheme": "Better Material Theme Darker High Contrast",
+    "explorer.confirmDelete": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "none"
+}
