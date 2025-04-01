@@ -1,0 +1,9 @@
+plugins=(
+git
+zsh-syntax-highlighting
+git-commit
+npm
+node
+sudo
+ubuntu
+)
