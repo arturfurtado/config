@@ -1,0 +1,85 @@
+@theme "/dev/null"
+
+* {
+	bg: #2c2033;
+	background-color: @bg;
+	sunset-light-purple:rgb(194, 136, 194);
+	sunset-purple: #8b4b8b;
+	sunset-pink: #D07b88;
+	accent-light: #F7E1B5;
+}
+
+
+configuration {
+	show-icons: true;
+	icon-theme: "Papirus";
+	location: 0;
+	font: "JetBrainsMono Nerd Font 12";	
+	display-drun: "Launch:";
+}
+
+window { 
+	width: 50%;
+	transparency: "real";
+	orientation: vertical;
+	border-color: @sunset-purple;
+}
+
+mainbox {
+	children: [inputbar, listview];
+}
+
+
+// ELEMENT
+// -----------------------------------
+
+element {
+	padding: 4 12;
+	text-color: @accent-light;
+}
+
+element selected {
+	background-color: @sunset-light-purple;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+}
+
+element-icon {
+	size: 16 px;
+	background-color: inherit;
+	padding: 0 6 0 0;
+	alignment: vertical;
+}
+
+listview {
+	columns: 2;
+	lines: 9;
+	padding: 8 0;
+	fixed-height: true;
+	fixed-columns: true;
+	fixed-lines: true;
+	border: 0 10 6 10;
+}
+
+// INPUT BAR 
+//------------------------------------------------
+
+entry {
+	text-color: @accent-light;
+	padding: 10 10 0 0;
+	margin: 0 -2 0 0;
+}
+
+inputbar {
+	background-image: url("~/.config/rofi/starwars.png", width);
+	padding: 270 0 0;
+} 
+
+prompt {
+	text-color: @sunset-pink;
+	padding: 10 6 0 10;
+	margin: 0 -2 0 0;
+}
