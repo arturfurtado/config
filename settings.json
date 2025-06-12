@@ -6,10 +6,10 @@
     "window.menuBarVisibility": "compact",
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
-    "workbench.colorTheme": "Better Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Vim Dark Hard",
     "explorer.confirmDelete": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.activityBar.location": "hidden",
-    "workbench.editor.showTabs": "none"
+    "workbench.activityBar.location": "top",
+    "workbench.editor.showTabs": "multiple"
 }
